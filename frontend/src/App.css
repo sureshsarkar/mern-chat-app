@@ -1,0 +1,11 @@
+.bg-blue{
+    background: #0ea5e9;
+}
+
+.dropdown-toggle::after {
+   color: white;
+
+}
+.input-bordered{
+    color: white;
+}
