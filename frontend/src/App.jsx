@@ -11,7 +11,7 @@ function App() {
 	const { authUser } = useAuthContext();
 	return (
 		<>
-		<div className='p-4 h-screens flex '>
+		<div className='p-2 h-screens flex '>
 			<SideMenu/>
 			<div className="m-auto">
 			<Routes>

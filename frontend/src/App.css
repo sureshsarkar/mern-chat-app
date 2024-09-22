@@ -1,5 +1,7 @@
 .bg-blue{
-    background: #0ea5e9;
+    background: #3b82f6;
+    padding: 0px;
+    border-radius: 25px 25px 0px 0px;
 }
 
 .dropdown-toggle::after {
@@ -9,3 +11,21 @@
 .input-bordered{
     color: white;
 }
+.flex-sm-column {
+    flex-direction: column !important;
+}
+.bg-black-m{
+    background-color: #1d232a;
+    border-radius: 10px;
+    
+}
+
+@media screen and (max-width: 800px) {
+    .border-slate-500 {
+      width: 85px ;
+    }
+  }
+
+  .d-sm-block{
+    display: block !important;
+  }
