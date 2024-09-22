@@ -29,11 +29,8 @@ const SideMenu = () => {
                     </li>
                     :''}
                      {authUser ? 
-                    <li className="nav-item">
-                        <Link to="logout" className="nav-link " title="Logout" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home">
-                            <i className="bi bi-box-arrow-left fs-3 text-light"></i>
-                        </Link>
-                    </li>
+                       < <LogoutButton/>
+                   
                     :''}
                 </ul>
                 {/* <div className="dropdown">
