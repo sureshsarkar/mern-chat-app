@@ -16,7 +16,7 @@ const Messages = () => {
 	}, [messages]);
 
 	return (
-		<div className='px-4 flex1-1 overflow-auto1'>
+		<div className='px-4'>
 			{!loading &&
 				messages.length > 0 &&
 				messages.map((message) => (
