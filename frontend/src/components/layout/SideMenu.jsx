@@ -29,7 +29,7 @@ const SideMenu = () => {
                     </li>
                     :''}
                      {authUser ? 
-                       < <LogoutButton/>
+                        <LogoutButton/>
                    
                     :''}
                 </ul>
