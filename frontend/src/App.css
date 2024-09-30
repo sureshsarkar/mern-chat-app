@@ -29,3 +29,8 @@
   .d-sm-block{
     display: block !important;
   }
+ @media (min-width: 300px) and (max-width: 650px) {
+    .smheight {
+     height: 500 !important;
+    }
+  }
